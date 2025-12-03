@@ -37,9 +37,13 @@ Now you provide inputs.
 
 # The Algorithm
 Now, how did I do that? HEHE
+
 Well, in training stage, I let the bots move on randomly and fight each other. And noted down who wins and who loses.
+
 This data is then used by the bots in the final showdown... wherein they will make their moves based on which moves in the training stage lead to either a draw or their win.
+
 This decision is also not fixed. It randomly selects from all possible moves that it had seen when it was in that position in some previous training games.
+
 If allowed to train for like 500-1000 games, this creates a bias in the random algorithm and thus - AI (I guess)!
 
 # To Play
