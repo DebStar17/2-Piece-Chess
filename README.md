@@ -47,7 +47,7 @@ This decision is also not fixed. It randomly selects from all possible moves tha
 If allowed to train for like 500-1000 games, this creates a bias in the random algorithm and thus - AI (I guess)!
 
 # To Play
-Open the "Copy of 2-pieceChess.ipynb" file and press run all.
+Open the "2PC-v2.0.ipynb" file and press run all.
 
 <img width="173" height="86" alt="image" src="https://github.com/user-attachments/assets/61d9f44e-edd0-45f4-a39b-e960bb0781f4" />
 
