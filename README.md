@@ -1,7 +1,10 @@
 # Aim
 This project is an attempt at making a kind of primitive yet twisted unsupervised learning chess bot. 
+
 Unlike traditional bots, which feed on human data, I wondered if it was possible to make something wherein 2 bots would fight and in the process train each other.
+
 And, as usual, I made it all in VANILLA python (no external AI-related libraries used, only used random and libs for the UI)
+
 Although, I didn't make a whole chess bot in vanilla python, I simplified my study down to where only 2 chess pieces fight for the win in a customizable chess-like-board
 
 # What the Game is...
@@ -41,6 +44,7 @@ If allowed to train for like 500-1000 games, this creates a bias in the random a
 
 # To Play
 Open the "Copy of 2-pieceChess.ipynb" file and press run all.
+
 <img width="173" height="86" alt="image" src="https://github.com/user-attachments/assets/61d9f44e-edd0-45f4-a39b-e960bb0781f4" />
 
 Then give the inputs as directed. And, ENJOY!
