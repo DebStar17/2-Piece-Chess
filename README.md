@@ -20,20 +20,26 @@ Now, the board - it's of a special kind! The board is not totally blank, but fil
 PS: P1 plays first.
 
 # What do YOU do?
-Now you provide inputs.
+First, you provide inputs.
 
-**Main1**
+**Make_Grid**
 - First it asks for the size of the chessboard/grid. Since the grid is square - one dimension will suffice. (give an integer input)
 - Next, it will ask for "Bias for space and wall". This is essential to know the ratio of empty squares to walls. (give two integers space separated)
 - Now it will show you your custom made chess-board.
   <img width="665" height="589" alt="image" src="https://github.com/user-attachments/assets/921bd213-feff-434d-9a6f-d356a524107a" />
 
 
-**Main2**
+**Train_Bots**
 - Next, you provide the positions of P1 (Knight) and P2 (King) as space separated integers.
 - Now, it asks for training threshold... this is how many games you will let the bots play with each other to train themselves. (single integer)
-- Finally after training is complete... the real showdown begins! Press enter and watch an epic fight unravel between two bots! If you like - make it more crazy by betting at each stage where the bot might move!
 <img width="655" height="603" alt="image" src="https://github.com/user-attachments/assets/da44d4af-98d3-43ca-98ca-d5a0bc972d1f" />
+
+**Bot-Bot**
+- Finally after training is complete... the real showdown begins! Press enter and watch an epic fight unravel between two bots! If you like - make it more crazy by betting at each stage where the bot might move!
+- The cells colored yellow are the possible next positions playable by the current player. (If the opponent is also in one of the said playable position, I wasn't able to color it yellow as well, sorry!)
+
+**You-Bot**
+- Now to spice things up even more, I added an option wherein you can also face of against one of the bots as one of the players... So why are u still reading? Go PLAY!
 
 # The Algorithm
 Now, how did I do that? HEHE
